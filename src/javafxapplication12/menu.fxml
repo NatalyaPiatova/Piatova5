@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="152.0" prefWidth="475.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication12.FXMLDocumentController">
+   <children>
+      <Button fx:id="МАГАЗИН"layoutX="14.0" layoutY="37.0"onAction="#handlButtonAction"  mnemonicParsing="false" text="МАГАЗИН" />
+      <Button  fx:id="УЧЕТ" layoutX="206.0" layoutY="37.0" onAction="#handlButtonAction"  mnemonicParsing="false" text="УЧЕТ" textFill="#1a1919" />
+      <Button  fx:id="ТОВАРЫ"layoutX="119.0" layoutY="37.0" onAction="#handlButtonAction"  mnemonicParsing="false" text="ТОВАРЫ" />
+      <Button  fx:id="ПРОДАВЦЫ" layoutX="365.0" layoutY="37.0"  onAction="#handlButtonAction"  mnemonicParsing="false" text="ПРОДАВЦЫ" />
+      <Button  fx:id="ВЫХОД" layoutX="393.0" layoutY="118.0" onAction="#handlButtonAction"  mnemonicParsing="false" text="ВЫХОД" />
+      <Button  fx:id="ПРОДАЖА" layoutX="268.0" layoutY="37.0" onAction="#handlButtonAction"   mnemonicParsing="false" text="ПРОДАЖА" />
+   </children>
+</AnchorPane>
